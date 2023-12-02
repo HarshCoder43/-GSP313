@@ -83,6 +83,3 @@ gcloud compute forwarding-rules create $FIREWALL_NAME \
 --global \
 --target-http-proxy http-lb-proxy \
 --ports 80
-
-
-export FIREWALL_NAME=
